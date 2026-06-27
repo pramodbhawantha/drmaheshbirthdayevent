@@ -1,0 +1,36 @@
+/* ==========================================
+   FADE ANIMATION
+========================================== */
+
+.fade-up{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.fade-up.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* ==========================================
+   HERO FADE
+========================================== */
+
+.hero{
+    animation:heroFade 1.2s ease;
+}
+
+@keyframes heroFade{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}

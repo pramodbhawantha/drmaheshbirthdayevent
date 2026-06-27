@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Celebrating Dr. Mahesh Weerakoon</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!-- Loading Screen -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>MW</h1>
+
+        <p>Celebrating Dr. Mahesh Weerakoon</p>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+</div>
+<button class="music-btn">
+  <audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+♫
+
+</button>
+
+    <main class="hero">
+<p class="invite-text">
+    AN EXCLUSIVE CELEBRATION
+</p>
+
+<h3 class="roman-number">
+    LIX
+</h3>
+
+<h1>
+    Celebrating
+</h1>
+
+<h2>
+    Dr. Mahesh Weerakoon
+</h2>
+
+<div class="birthday-badge">
+    59<sup>TH</sup> BIRTHDAY CELEBRATION
+</div>
+
+<p class="description">
+    Join us as we celebrate 59 wonderful years of life,
+    achievement and cherished memories.
+</p>
+
+        <div class="hero-buttons">
+
+            <a href="#event-details" class="hero-btn-outline">
+                Explore Invitation
+            </a>
+
+            <a href="#rsvp" class="hero-btn-filled">
+                RSVP Now
+            </a>
+
+        </div>
+        <div class="hero-divider">
+    ✦ ✦ ✦
+</div>
+
+        <div class="scroll-indicator">
+
+            ↓ Scroll
+
+        </div>
+
+    </main>
+    <section class="about-section">
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <img src="images/family.jpg" alt="Dr. Mahesh Weerakoon">
+
+        </div>
+
+        <div class="about-content">
+
+            <p class="invite-text">ABOUT THE CELEBRATION</p>
+
+            <h2>Dr. Mahesh Weerakoon</h2>
+
+            <p>
+
+                Join us in celebrating a remarkable milestone in the life of
+                Dr. Mahesh Weerakoon. Your presence will make this occasion
+                even more joyful and memorable for our family.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+   <section id="event-details" class="event-section">
+
+    <h2 class="section-title">Event Details</h2>
+
+    <div class="countdown">
+
+        <div class="count-card">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+
+        <div class="count-card">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+
+        <div class="count-card">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+
+        <div class="count-card">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+
+    </div>
+
+    <div class="details-card">
+
+        <div class="detail-item">
+            <h3>📅 Date</h3>
+            <p>14 July 2026</p>
+        </div>
+
+        <div class="detail-item">
+            <h3>🕛 Time</h3>
+            <p>12:00 PM – 6:00 PM</p>
+        </div>
+
+        <div class="detail-item">
+            <h3>📍 Venue</h3>
+            <p>Clover Banquets & Resort</p>
+        </div>
+
+        <div class="detail-item">
+            <h3>👔 Dress Code</h3>
+            <p>Smart Casual</p>
+        </div>
+
+        <a href="https://maps.app.goo.gl/C2ridRAvDhzUpC5g7" target="_blank" class="hero-btn-filled">
+            View Location
+        </a>
+
+    </div>
+
+</section>
+<section class="venue-section">
+
+    <h2 class="section-title">Venue</h2>
+
+    <div class="venue-card">
+
+        <div class="venue-icon">📍</div>
+
+        <h3>Clover Banquets & Resort</h3>
+
+        <p>Biyagama Makola Rd, Heiyanthuduwa, Western Province, Sri Lanka</p>
+
+        <div class="venue-buttons">
+
+            <a href="https://maps.app.goo.gl/C2ridRAvDhzUpC5g7"
+               target="_blank"
+               class="hero-btn-filled">
+
+                View on Google Maps
+
+            </a>
+
+            <a href="#"
+               id="calendarBtn"
+               class="hero-btn-outline">
+
+                Add to Calendar
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="rsvp" class="rsvp-section">
+
+    <h2 class="section-title">RSVP</h2>
+
+    <form id="rsvpForm" class="rsvp-form">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            required>
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Phone Number"
+            required>
+
+        <input
+            type="number"
+            id="guests"
+            placeholder="Number of Guests"
+            min="1"
+            value="1">
+
+        <select id="attendance">
+
+            <option value="Attending">
+                Will Attend
+            </option>
+
+            <option value="Not Attending">
+                Regretfully Decline
+            </option>
+
+        </select>
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Birthday Wishes (Optional)">
+        </textarea>
+
+        <button
+            type="submit"
+            class="hero-btn-filled">
+
+            Confirm Attendance
+
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+    <script src="js/animations.js"></script>
+<!-- Success Popup -->
+
+<div id="successPopup" class="popup">
+
+    <div class="popup-box">
+
+        <div class="popup-icon">✔</div>
+
+        <h2>Thank You!</h2>
+
+        <p>Your RSVP has been successfully received.</p>
+
+        <button id="closePopup" class="hero-btn-filled">
+            Close
+        </button>
+
+    </div>
+
+</div>
+</body>
+
+</html>

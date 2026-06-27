@@ -1,0 +1,57 @@
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:54px;
+
+}
+
+.hero h2{
+
+font-size:42px;
+
+}
+
+.description{
+
+font-size:16px;
+
+width:90%;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+}
+@media(max-width:768px){
+
+.venue-card{
+
+padding:40px 25px;
+
+}
+
+.venue-card h3{
+
+font-size:28px;
+
+}
+
+}
+@media(max-width:768px){
+
+.rsvp-form{
+
+width:100%;
+
+}
+
+}
