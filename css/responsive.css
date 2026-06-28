@@ -1,57 +1,250 @@
-@media(max-width:768px){
+/* ==========================================
+   LARGE TABLETS
+========================================== */
+
+@media (max-width:1024px){
 
 .hero h1{
-
-font-size:54px;
-
+    font-size:70px;
 }
 
 .hero h2{
+    font-size:56px;
+}
 
-font-size:42px;
+.roman-number{
+    font-size:110px;
+}
 
+.about-container{
+    gap:45px;
+}
+
+.details-card,
+.venue-card,
+.rsvp-form{
+    width:95%;
+}
+
+}
+
+/* ==========================================
+   TABLETS
+========================================== */
+
+@media (max-width:768px){
+
+.hero{
+    padding:80px 25px;
+}
+
+.invite-text{
+    font-size:12px;
+    letter-spacing:4px;
+}
+
+.est-year{
+    font-size:11px;
+    letter-spacing:5px;
+}
+
+.roman-number{
+    font-size:90px;
+    margin-bottom:-20px;
+}
+
+.hero h1{
+    font-size:52px;
+}
+
+.hero h2{
+    font-size:42px;
+    line-height:1.2;
 }
 
 .description{
-
-font-size:16px;
-
-width:90%;
-
+    width:95%;
+    font-size:17px;
 }
 
 .hero-buttons{
-
-display:flex;
-
-flex-direction:column;
-
-gap:15px;
-
+    flex-direction:column;
+    width:100%;
+    gap:18px;
 }
 
+.hero-btn-filled,
+.hero-btn-outline{
+    width:100%;
+    text-align:center;
 }
-@media(max-width:768px){
+
+.countdown{
+    gap:18px;
+}
+
+.count-card{
+    width:140px;
+}
+
+.about-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-line{
+    margin:25px auto 35px;
+}
+
+.about-image img{
+    width:300px;
+    height:390px;
+}
+
+.details-card{
+    padding:35px 25px;
+}
 
 .venue-card{
+    padding:40px 25px;
+}
 
-padding:40px 25px;
+.venue-buttons{
+    flex-direction:column;
+}
 
+.venue-buttons a{
+    width:100%;
+}
+
+.rsvp-form{
+    width:100%;
+}
+
+.footer h2{
+    font-size:38px;
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:480px){
+
+.hero{
+    min-height:auto;
+    padding:100px 20px 70px;
+}
+
+.invite-text{
+    font-size:11px;
+    letter-spacing:3px;
+}
+
+.est-year{
+    font-size:10px;
+}
+
+.roman-number{
+    font-size:72px;
+    margin-bottom:-15px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero h2{
+    font-size:32px;
+}
+
+.birthday-badge{
+    font-size:13px;
+    padding:10px 18px;
+    letter-spacing:2px;
+}
+
+.description{
+    font-size:15px;
+    line-height:1.8;
+}
+
+.hero-divider{
+    letter-spacing:8px;
+    font-size:12px;
+}
+
+.scroll-indicator{
+    margin-top:50px;
+}
+
+.section-title{
+    font-size:40px;
+}
+
+.count-card{
+    width:46%;
+    padding:22px;
+}
+
+.count-card span{
+    font-size:34px;
+}
+
+.about-image img{
+    width:250px;
+    height:320px;
 }
 
 .venue-card h3{
+    font-size:28px;
+}
 
-font-size:28px;
+.footer h2{
+    font-size:30px;
+}
+
+.music-btn{
+
+    width:52px;
+    height:52px;
+    right:18px;
+    bottom:18px;
 
 }
 
 }
-@media(max-width:768px){
 
-.rsvp-form{
+/* ==========================================
+   SMALL DEVICES
+========================================== */
 
-width:100%;
+@media (max-width:360px){
 
+.hero h1{
+    font-size:36px;
+}
+
+.hero h2{
+    font-size:28px;
+}
+
+.roman-number{
+    font-size:60px;
+}
+
+.section-title{
+    font-size:34px;
+}
+
+.count-card{
+    width:100%;
+}
+
+.hero-buttons{
+    gap:14px;
 }
 
 }
